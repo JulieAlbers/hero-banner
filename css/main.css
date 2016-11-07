@@ -9,33 +9,38 @@ html {
 
 body {
   margin: 0;
-  overflow: hidden;
 }
 
 .banner {
   position: relative;
+  overflow: hidden;
 }
 
 .img-flex {
   display: block;
   width: 100%;
-  max-height: 500px;
 }
 
 .banner-content {
   position: absolute;
-  bottom: 0;
-  left: 0;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  width: 100%;
+  max-width: 50em;
+
 }
 
 .banner-content h2 {
   font-size: 4rem;
   color: #fff;
   background-color: rgba(0, 0, 0, .5);
+  margin: 0 1rem;
 }
 
 .banner-content p {
   font-size: 2rem;
   line-height: 1.5;
   font-style: italic;
+  margin: 1rem;
 }
