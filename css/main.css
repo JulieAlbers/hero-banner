@@ -34,8 +34,12 @@ body {
 .banner-content h2 {
   font-size: 4rem;
   color: #fff;
-  background-color: rgba(0, 0, 0, .5);
   margin: 0 1rem;
+}
+
+.banner-content span {
+  background-color: rgba(0, 0, 0, .5);
+  margin: 0;
 }
 
 .banner-content p {
