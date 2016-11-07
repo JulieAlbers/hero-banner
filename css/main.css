@@ -1,7 +1,39 @@
 html {
   box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+.banner {
+  position: relative;
+}
+
+.img-flex {
+  display: block;
+  width: 100%;
+  max-height: 500px;
+}
+
+.banner-title {
+  font-size: 4rem;
+  color: #fff;
+  background-color: rgba(0, 0, 0, .5);
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.banner-text {
+  font-size: 2rem;
+  font-style: italic;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
