@@ -9,6 +9,7 @@ html {
 
 body {
   margin: 0;
+  overflow: hidden;
 }
 
 .banner {
@@ -21,19 +22,20 @@ body {
   max-height: 500px;
 }
 
-.banner-title {
+.banner-content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.banner-content h2 {
   font-size: 4rem;
   color: #fff;
   background-color: rgba(0, 0, 0, .5);
-  position: absolute;
-  top: 0;
-  right: 0;
 }
 
-.banner-text {
+.banner-content p {
   font-size: 2rem;
+  line-height: 1.5;
   font-style: italic;
-  position: absolute;
-  top: 0;
-  right: 0;
 }
